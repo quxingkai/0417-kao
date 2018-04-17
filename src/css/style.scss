@@ -1,0 +1,70 @@
+header{
+    width:100%;
+    height:44px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding:0 5%;
+    background: #31C37C;
+    line-height: 44px;
+    span{color:#fff;
+        img{
+            width:30px;
+            vertical-align: middle;
+        }
+        b{
+            font-weight: 400;
+            color:#fff;
+            margin-left:5px;
+        }
+   }
+}
+.nav{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    display: flex;
+    padding:0 10%;
+    align-items: center;
+    span{
+        font-size: 18px;
+        flex:1;
+        text-align: center;
+    }
+}
+.allPage{
+    width:100%;
+    height:100;
+    .page{
+        width:100%;
+        height:100;
+        .page1{
+            width:100%;
+            height:100; 
+            .banner{
+                width:100%;
+                img{
+                    width:100%;
+                }
+            }
+        } 
+    }
+}
+.tit{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    padding-left:10px;
+    font-size: 18px;
+}
+.list{
+    width:100%;
+    display: flex;
+}
+.list li{
+    flex:1;
+    margin:0 5px;
+}
+.list li img{
+    width:100%;
+}

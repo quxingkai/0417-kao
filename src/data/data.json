@@ -1,0 +1,12 @@
+{
+    "list":[
+        {
+            "img":"img/list1.jpg",
+            "main":"热歌"
+        },
+        {
+            "img":"img/list2.jpg",
+            "main":"经典"
+        }
+    ]
+}

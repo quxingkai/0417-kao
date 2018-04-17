@@ -1,0 +1,15 @@
+require.config(
+    {
+        paths:{
+            "jquery":"libs/jquery-2.1.1.min",
+            "swiper":"libs/swiper-3.4.2.min",
+            "index":"index",
+            "ajax":"ajax"
+        }
+    }
+)
+require(['jquery','swiper','index','ajax'],function($,swiper,index,ajax){
+     console.log($);
+     index();
+     ajax();
+})
